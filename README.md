@@ -8,8 +8,7 @@
 - button for saving current opened tab
 - button for deleting all bookmarks
 - finally all saved bookmarks must be shown.
-## Preview after completion
- ![Browser_Preview](preview.png)
+
 
 
 ## Code
@@ -170,6 +169,9 @@ inputBtn.addEventListener("click", function() {
 }
 
 ```
+## Preview after completion
+ ![Browser_Preview](preview.png)
+ 
 ## How to Add this Extension to Chrome
 ### Steps:
 1) Download this repository
