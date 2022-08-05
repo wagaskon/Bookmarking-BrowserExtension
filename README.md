@@ -170,3 +170,10 @@ inputBtn.addEventListener("click", function() {
 }
 
 ```
+## How to Add this Extension to Chrome
+### Steps:
+1) Download this repository
+2) Open Chrome then setting and then click on extensions  or just copy paste this in search bar--> chrome://extensions/
+3) Click on developer mode on
+4) click on Load Unpack and choose folder that has been dowloaded.
+5) Extension will be shown in extension panel.
