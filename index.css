@@ -3,21 +3,12 @@ body {
     padding: 10px;
     font-family: Arial, Helvetica, sans-serif;
     min-width: 400px;
-    background-image: url(pet.jpg);
+    background-image: url(cat.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
-    
-    /* @font-face {
-        font-family: brush;
-        src: url(brush.ttf);
-    } */
-    
-
-   
-      
-
-}
-
+   display: flex;
+   flex-direction: column;    }
+.flx{  display: flex; }
 input {
     width: 100%;
     padding: 10px 20px;
@@ -28,47 +19,35 @@ input {
     font-family: sans-serif;
     font-size: 20px;;
     color: black;
-    background: linear-gradient(to right,#C3CCD5, #8E9AA8);
+    background: linear-gradient(to right,#A1DFDE, #BBEDEC);
 }
-
 button {
     font-family: 'Caveat', cursive;
-    background: #D2C8C3;
+    background: #49d9ba;
     color: rgb(1, 27, 121);
     padding: 5px 20px;
     border: 1px solid #5f9341;
     font-size: 15px;
     font-weight: bold;
     border: 2px solid black;
-    border-radius: 20px;
-    
-
+    border-radius: 20px; }
+.abc{
+    margin-left: auto;
 }
-
 #delete-btn {
     background: white;
-    color: red;
-}
-
+    color: red;}
 ul {
     margin-top: 20px;
     list-style: none;
-    padding-left: 0;
-   
-    
-}
+    padding-left: 0;}
 
-li {
-    margin-top: 5px;
-}
-
+li { margin-top: 5px;}
 a {
     font-family: 'Caveat', cursive;
-    font-size: 30px;
     color: black;
     text-decoration: none;
     padding-left: 10px;
-    /* color: #5f9341; */
 }
 
 
